@@ -650,38 +650,128 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var NavigationModel = function NavigationModel() {
       _classCallCheck(this, NavigationModel);
 
-      this.navigation = [{
-        id: 'main',
-        title: 'Main',
-        translate: 'NAV.MAIN.TITLE',
+      this.navigation = [// {
+      //   id: 'main',
+      //   title: 'Main',
+      //   translate: 'NAV.MAIN.TITLE',
+      //   type: 'group',
+      //   icon: 'home',
+      //   children: [
+      //     {
+      //       id: 'home',
+      //       title: 'Dashboard Overview',
+      //       // translate: 'NAV.MAIN.LAYOUTS',
+      //       type: 'item',
+      //       icon: 'dashboard',
+      //       url: 'main/dashboards/crm'
+      //     },
+      //     {
+      //       id: 'dashboards',
+      //       title: 'Dashboards',
+      //       // translate: 'NAV.MAIN.DASHBOARDS',
+      //       type: 'collapse',
+      //       icon: 'dashboard',
+      //       children: [
+      //         {
+      //           id: 'listing',
+      //           title: 'Listing',
+      //           type: 'item',
+      //           icon: 'list',
+      //           url: 'main/dashboards/listing'
+      //         },
+      //         {
+      //           id: 'real-estate',
+      //           title: 'Real Estate',
+      //           type: 'item',
+      //           icon: 'company',
+      //           url: 'main/dashboards/real-estate'
+      //         },
+      //         // {
+      //         //   id: 'crypto',
+      //         //   title: 'Crypto',
+      //         //   type: 'item',
+      //         //   icon: 'crypto',
+      //         //   url: 'main/dashboards/crypto'
+      //         // },
+      //         // {
+      //         //   id: 'crm',
+      //         //   title: 'CRM',
+      //         //   type: 'item',
+      //         //   icon: 'crm',
+      //         //   url: 'main/dashboards/crm'
+      //         // }
+      //       ]
+      //     },
+      //     // {
+      //     //   id: 'widgets',
+      //     //   title: 'Widgets',
+      //     //   translate: 'NAV.MAIN.WIDGETS',
+      //     //   type: 'collapse',
+      //     //   icon: 'widgets',
+      //     //   children: [
+      //     //     {
+      //     //       id: 'classic-widgets',
+      //     //       title: 'Classic',
+      //     //       type: 'item',
+      //     //       icon: 'components',
+      //     //       url: 'main/widgets/classic'
+      //     //     },
+      //     //     {
+      //     //       id: 'modern-widgets',
+      //     //       title: 'Modern',
+      //     //       type: 'item',
+      //     //       icon: 'datatable',
+      //     //       url: 'main/widgets/modern'
+      //     //     }
+      //     //   ]
+      //     // },
+      //     // {
+      //     //   id: 'metrics',
+      //     //   title: 'Metrics',
+      //     //   translate: 'NAV.MAIN.METRICS',
+      //     //   type: 'item',
+      //     //   icon: 'metrics',
+      //     //   url: 'main/metrics'
+      //     // },
+      //     // {
+      //     //   id: 'layouts',
+      //     //   title: 'Layouts',
+      //     //   translate: 'NAV.MAIN.LAYOUTS',
+      //     //   type: 'item',
+      //     //   icon: 'layout',
+      //     //   url: 'page/layouts'
+      //     // }
+      //   ]
+      // },
+      //PERFORMANCE
+      {
+        id: 'face_detection',
+        title: 'FACE DETECTION',
+        //translate: 'NAV.MAIN.TITLE',
         type: 'group',
         icon: 'home',
         children: [{
-          id: 'home',
-          title: 'Dashboard Overview',
-          // translate: 'NAV.MAIN.LAYOUTS',
-          type: 'item',
-          icon: 'dashboard',
-          url: 'main/dashboards/crm'
-        }, {
-          id: 'dashboards',
-          title: 'Dashboards',
+          id: 'face_detections',
+          title: 'FACE DETECTION',
           // translate: 'NAV.MAIN.DASHBOARDS',
-          type: 'collapse',
-          icon: 'dashboard',
-          children: [{
-            id: 'listing',
-            title: 'Listing',
-            type: 'item',
-            icon: 'list',
-            url: 'main/dashboards/listing'
-          }, {
-            id: 'real-estate',
-            title: 'Real Estate',
-            type: 'item',
-            icon: 'company',
-            url: 'main/dashboards/real-estate'
-          }]
+          type: 'item',
+          icon: 'list',
+          url: 'main/dashboards/face-detection'
+        }]
+      }, //PERFORMANCE
+      {
+        id: 'parking',
+        title: 'ILLEGAL PARKING',
+        //translate: 'NAV.MAIN.TITLE',
+        type: 'group',
+        icon: 'home',
+        children: [{
+          id: 'illegal_parking',
+          title: 'Illegal Parking',
+          // translate: 'NAV.MAIN.DASHBOARDS',
+          type: 'item',
+          icon: 'list',
+          url: 'main/dashboards/illegal-parking'
         }]
       }, //CCTV Security
       {
@@ -700,67 +790,67 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             id: 'cctv-caml',
             title: 'CCTV CAM1',
             type: 'item',
-            icon: 'button',
+            icon: 'camera',
             url: 'main/dashboards/cctv-cam1'
           }, {
             id: 'cctv-cam2',
             title: 'CCTV CAM2',
             type: 'item',
-            icon: 'button',
+            icon: 'camera',
             url: 'main/dashboards/cctv-cam2'
           }, {
             id: 'cctv-cam3',
             title: 'CCTV CAM3',
             type: 'item',
-            icon: 'button',
+            icon: 'camera',
             url: 'main/dashboards/cctv-cam3'
           }, {
             id: 'cctv-cam4',
             title: 'CCTV CAM4',
             type: 'item',
-            icon: 'button',
+            icon: 'camera',
             url: 'main/dashboards/cctv-cam4'
           }, {
             id: 'cctv-cam5',
             title: 'CCTV CAM5',
             type: 'item',
-            icon: 'button',
+            icon: 'camera',
             url: 'main/dashboards/cctv-cam5'
           }, {
             id: 'cctv-cam6',
             title: 'CCTV CAM6',
             type: 'item',
-            icon: 'button',
+            icon: 'camera',
             url: 'main/dashboards/cctv-cam6'
           }, {
             id: 'cctv-cam7',
             title: 'CCTV CAM7',
             type: 'item',
-            icon: 'button',
+            icon: 'camera',
             url: 'main/dashboards/cctv-cam7'
           }, {
             id: 'cctv-cam8',
             title: 'CCTV CAM8',
             type: 'item',
-            icon: 'button',
+            icon: 'camera',
             url: 'main/dashboards/cctv-cam8'
           }, {
             id: 'cctv-cam9',
             title: 'CCTV CAM9',
             type: 'item',
-            icon: 'button',
+            icon: 'camera',
             url: 'main/dashboards/cctv-cam9'
           }, {
             id: 'cctv-cam10',
             title: 'CCTV CAM10',
             type: 'item',
-            icon: 'button',
+            icon: 'camera',
             url: 'main/dashboards/cctv-cam10'
           }, {
             id: 'all-cam',
             title: 'All CCTV CAM',
             type: 'item',
-            icon: 'button',
+            icon: 'camera',
             url: 'main/dashboards/cctv-cam-all'
           }]
         }]

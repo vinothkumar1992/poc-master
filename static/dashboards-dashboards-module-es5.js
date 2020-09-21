@@ -2099,7 +2099,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"row\" style=\"margin-bottom: 10px ;\">\n   \n   \n    <!-- Grid Item  LEFT CAMERA-->\n    <div class=\"col-xl-2 col-sm-3\" >\n      <!-- CAMERA 1 -->\n      <div class=\"row\" style=\"margin-bottom: 10px ;\">\n        <div class=\"col-xl-12 col-sm-12\">\n          <img src=\"http://tp4.southeastasia.cloudapp.azure.com:5000/video_feed\" width=\"100%\" height=\"125px\">\n        </div>\n      </div>\n  \n      <!-- CAMERA 2 -->\n      <div class=\"row\" style=\"margin-bottom: 10px ;\">\n        <div class=\"col-xl-12 col-sm-12\">\n          <img src=\"http://tp4.southeastasia.cloudapp.azure.com:5000/video_feed\" width=\"100%\" height=\"125px\">\n        </div>\n      </div>\n  \n      <!-- CAMERA 3 -->\n      <div class=\"row\" style=\"margin-bottom: 10px ;\">\n        <div class=\"col-xl-12 col-sm-12\">\n          <img src=\"http://tp4.southeastasia.cloudapp.azure.com:5000/video_feed\" width=\"100%\" height=\"125px\">\n        </div>\n      </div>\n  \n      <!-- CAMERA 4 -->\n      <div class=\"row\" style=\"margin-bottom: 10px ;\">\n        <div class=\"col-xl-12 col-sm-12\">\n          <img src=\"http://tp4.southeastasia.cloudapp.azure.com:5000/video_feed\" width=\"100%\" height=\"125px\">\n        </div>\n      </div>\n  \n      <!-- CAMERA 5 -->\n      <div class=\"row\" style=\"margin-bottom: 10px ;\">\n        <div class=\"col-xl-12 col-sm-12\">\n          <img src=\"http://tp4.southeastasia.cloudapp.azure.com:5000/video_feed\" width=\"100%\" height=\"125px\">\n        </div>\n      </div>\n  \n    </div>\n  \n    <!-- Grid Item  MAP AND CHART   *ngFor=\"let item of cameraList | keyvalue\"-->\n    <div class=\"col-xl-8 col-sm-6\" >\n      <!-- Google Map  -->\n      <div class=\"row\" style=\"margin-bottom: 10px ;\">\n        <div class=\"col-sm-12 col-xl-12\">\n          <agm-map [latitude]=\"lat\" [longitude]=\"lng\" [zoom]=\"zoom\" \n          [styles]= \"styles\"\n          [backgroundColor]=\"red\">\n            <agm-marker *ngFor=\"let item of cameraList | keyvalue\"   [latitude]=\"item.value.lat\" [longitude]=\"item.value.lng\" [iconUrl]=\"iconUrl\"></agm-marker>\n          </agm-map>\n          <div id=\"over_map\" style=\"margin-left: 10px ;\">\n             \n          </div>\n        </div>\n      </div>\n     \n      <!-- Charts -->\n      <!-- <div class=\"row\" style=\"margin-bottom: 10px;height:300px;\">\n          <div class=\"col-sm-3 col-xl-3\">\n            <div style=\"width:100% ;height:100%\">\n              <canvas baseChart \n                [data]=\"pieChartData\" \n                [labels]=\"pieChartLabels\" \n                [chartType]=\"pieChartType\"\n                [options]=\"pieChartOptions\"\n                [plugins]=\"pieChartPlugins\"\n                [legend]=\"pieChartLegend\">\n              </canvas>\n              </div>\n          </div>                                    \n          <div class=\"col-sm-3 col-xl-3\">\n            <div style=\"width:100% ;height:100%\">\n            <canvas baseChart \n              [datasets]=\"barChartData\"\n              [labels]=\"barChartLabels\"\n              [options]=\"barChartOptions\"\n              [plugins]=\"barChartPlugins\"\n              [legend]=\"barChartLegend\"\n              [chartType]=\"barChartType\">\n            </canvas>\n          </div>\n        </div>\n        <div class=\"col-sm-3 col-xl-3\">\n          <div style=\"width:100% ;height:100%\">\n            <canvas baseChart \n              [data]=\"pieChartData\" \n              [labels]=\"pieChartLabels\" \n              [chartType]=\"pieChartType\"\n              [options]=\"pieChartOptions\"\n              [plugins]=\"pieChartPlugins\"\n              [legend]=\"pieChartLegend\">\n            </canvas>\n            </div>\n        </div>\n        <div class=\"col-sm-3 col-xl-3\">\n          <div style=\"width:100% ;height:100%\">\n            <canvas baseChart \n              [datasets]=\"barChartData\"\n              [labels]=\"barChartLabels\"\n              [options]=\"barChartOptions\"\n              [plugins]=\"barChartPlugins\"\n              [legend]=\"barChartLegend\"\n              [chartType]=\"barChartType\">\n            </canvas>\n          </div>\n        </div> \n     </div> -->\n    </div>\n  \n     <!-- Grid Item  RIGHT CAMERA-->\n    <div class=\"col-xl-2 col-sm-3\" >\n       <!-- CAMERA 1 -->\n       <div class=\"row\" style=\"margin-bottom: 10px ;\">\n        <div class=\"col-xl-12 col-sm-12\">\n          <img src=\"http://tp4.southeastasia.cloudapp.azure.com:5000/video_feed\" width=\"100%\" height=\"125px\">\n        </div>\n      </div>\n  \n      <!-- CAMERA 2 -->\n      <div class=\"row\" style=\"margin-bottom: 10px ;\">\n        <div class=\"col-xl-12 col-sm-12\">\n          <img src=\"http://tp4.southeastasia.cloudapp.azure.com:5000/video_feed\" width=\"100%\" height=\"125px\">\n        </div>\n      </div>\n  \n      <!-- CAMERA 3 -->\n      <div class=\"row\" style=\"margin-bottom: 10px ;\">\n        <div class=\"col-xl-12 col-sm-12\">\n          <img src=\"http://tp4.southeastasia.cloudapp.azure.com:5000/video_feed\" width=\"100%\" height=\"125px\">\n        </div>\n      </div>\n  \n      <!-- CAMERA 4 -->\n      <div class=\"row\" style=\"margin-bottom: 10px ;\">\n        <div class=\"col-xl-12 col-sm-12\">\n          <img src=\"http://tp4.southeastasia.cloudapp.azure.com:5000/video_feed\" width=\"100%\" height=\"125px\">\n        </div>\n      </div>\n  \n      <!-- CAMERA 5 -->\n      <div class=\"row\" style=\"margin-bottom: 10px ;\">\n        <div class=\"col-xl-12 col-sm-12\">\n          <img src=\"http://tp4.southeastasia.cloudapp.azure.com:5000/video_feed\" width=\"100%\" height=\"125px\">\n        </div>\n      </div>\n    </div>\n   \n  </div>\n  \n  \n  \n<div class=\"row\" style=\"margin-bottom: 10px;\">\n  <div class=\"col-sm-3 col-xl-3\">\n    <div style=\"display: block; width:100% \">\n      <canvas baseChart width=\"100%\" height=\"90%\"\n        [data]=\"cam1PieChart.pieChartData\" \n        [labels]=\"cam1PieChart.pieChartLabels\" \n        [chartType]=\"cam1PieChart.pieChartType\"\n        [options]=\"cam1PieChart.pieChartOptions\"\n        [plugins]=\"cam1PieChart.pieChartPlugins\"\n        [colors]=\"cam1PieChart.pieChartColors\"\n        [legend]=\"cam1PieChart.pieChartLegend\">\n      </canvas>\n      </div>\n  </div>                                    \n  <div class=\"col-sm-3 col-xl-3\">\n    <div style=\"display: block; width:100% \">\n    <canvas baseChart width=\"100%\" height=\"90%\"\n      [datasets]=\"cam1BarChart.barChartData\"\n      [labels]=\"cam1BarChart.barChartLabels\"\n      [options]=\"cam1BarChart.barChartOptions\"\n      [plugins]=\"cam1BarChart.barChartPlugins\"\n      [legend]=\"cam1BarChart.barChartLegend\"\n      [chartType]=\"cam1BarChart.barChartType\">\n    </canvas>\n  </div>\n  </div>\n  <div class=\"col-sm-3 col-xl-3\">\n  <div style=\"display: block; width:100% ;height:100%\">\n    <canvas baseChart width=\"100%\" height=\"100%\"\n      [data]=\"cam1PieChart.pieChartData\" \n      [labels]=\"cam1PieChart.pieChartLabels\" \n      [chartType]=\"cam1PieChart.pieChartType\"\n      [options]=\"cam1PieChart.pieChartOptions\"\n      [plugins]=\"cam1PieChart.pieChartPlugins\"\n      [colors]=\"cam1PieChart.pieChartColors\"\n      [legend]=\"cam1PieChart.pieChartLegend\">\n    </canvas>\n    </div>\n  </div>\n  <div class=\"col-sm-3 col-xl-3\">\n  <div style=\"display: block; width:100% ;height:100%\">\n    <canvas baseChart width=\"100%\" height=\"100%\"\n      [datasets]=\"cam1BarChart.barChartData\"\n      [labels]=\"cam1BarChart.barChartLabels\"\n      [options]=\"cam1BarChart.barChartOptions\"\n      [plugins]=\"cam1BarChart.barChartPlugins\"\n      [legend]=\"cam1BarChart.barChartLegend\"\n      [chartType]=\"cam1BarChart.barChartType\">\n    </canvas>\n  </div>\n  </div>\n  </div>";
+    __webpack_exports__["default"] = "<div class=\"row\" style=\"margin-bottom: 10px ;\">\n   \n   \n    <!-- Grid Item  LEFT CAMERA-->\n    <div class=\"col-xl-2 col-sm-3\" >\n      <!-- CAMERA 1 -->\n      <div class=\"row\" style=\"margin-bottom: 10px ;\">\n        <div class=\"col-xl-12 col-sm-12\">\n          <img src=\"http://trustprime.westus.cloudapp.azure.com:5000/video_feed\" width=\"100%\" height=\"125px\">\n        </div>\n      </div>\n  \n      <!-- CAMERA 2 -->\n      <div class=\"row\" style=\"margin-bottom: 10px ;\">\n        <div class=\"col-xl-12 col-sm-12\">\n          <img src=\"http://trustprime.westus.cloudapp.azure.com:5000/video_feed\" width=\"100%\" height=\"125px\">\n        </div>\n      </div>\n  \n      <!-- CAMERA 3 -->\n      <div class=\"row\" style=\"margin-bottom: 10px ;\">\n        <div class=\"col-xl-12 col-sm-12\">\n          <img src=\"http://trustprime.westus.cloudapp.azure.com:5000/video_feed\" width=\"100%\" height=\"125px\">\n        </div>\n      </div>\n  \n      <!-- CAMERA 4 -->\n      <div class=\"row\" style=\"margin-bottom: 10px ;\">\n        <div class=\"col-xl-12 col-sm-12\">\n          <img src=\"http://trustprime.westus.cloudapp.azure.com:5000/video_feed\" width=\"100%\" height=\"125px\">\n        </div>\n      </div>\n  \n      <!-- CAMERA 5 -->\n      <div class=\"row\" style=\"margin-bottom: 10px ;\">\n        <div class=\"col-xl-12 col-sm-12\">\n          <img src=\"http://trustprime.westus.cloudapp.azure.com:5000/video_feed\" width=\"100%\" height=\"125px\">\n        </div>\n      </div>\n  \n    </div>\n  \n    <!-- Grid Item  MAP AND CHART   *ngFor=\"let item of cameraList | keyvalue\"-->\n    <div class=\"col-xl-8 col-sm-6\" >\n      <!-- Google Map  -->\n      <div class=\"row\" style=\"margin-bottom: 10px ;\">\n        <div class=\"col-sm-12 col-xl-12\">\n          <agm-map [latitude]=\"lat\" [longitude]=\"lng\" [zoom]=\"zoom\" \n          [styles]= \"styles\"\n          [backgroundColor]=\"red\">\n            <agm-marker *ngFor=\"let item of cameraList | keyvalue\"   [latitude]=\"item.value.lat\" [longitude]=\"item.value.lng\" [iconUrl]=\"iconUrl\"></agm-marker>\n          </agm-map>\n          <div id=\"over_map\" style=\"margin-left: 10px ;\">\n             \n          </div>\n        </div>\n      </div>\n     \n      <!-- Charts -->\n      <!-- <div class=\"row\" style=\"margin-bottom: 10px;height:300px;\">\n          <div class=\"col-sm-3 col-xl-3\">\n            <div style=\"width:100% ;height:100%\">\n              <canvas baseChart \n                [data]=\"pieChartData\" \n                [labels]=\"pieChartLabels\" \n                [chartType]=\"pieChartType\"\n                [options]=\"pieChartOptions\"\n                [plugins]=\"pieChartPlugins\"\n                [legend]=\"pieChartLegend\">\n              </canvas>\n              </div>\n          </div>                                    \n          <div class=\"col-sm-3 col-xl-3\">\n            <div style=\"width:100% ;height:100%\">\n            <canvas baseChart \n              [datasets]=\"barChartData\"\n              [labels]=\"barChartLabels\"\n              [options]=\"barChartOptions\"\n              [plugins]=\"barChartPlugins\"\n              [legend]=\"barChartLegend\"\n              [chartType]=\"barChartType\">\n            </canvas>\n          </div>\n        </div>\n        <div class=\"col-sm-3 col-xl-3\">\n          <div style=\"width:100% ;height:100%\">\n            <canvas baseChart \n              [data]=\"pieChartData\" \n              [labels]=\"pieChartLabels\" \n              [chartType]=\"pieChartType\"\n              [options]=\"pieChartOptions\"\n              [plugins]=\"pieChartPlugins\"\n              [legend]=\"pieChartLegend\">\n            </canvas>\n            </div>\n        </div>\n        <div class=\"col-sm-3 col-xl-3\">\n          <div style=\"width:100% ;height:100%\">\n            <canvas baseChart \n              [datasets]=\"barChartData\"\n              [labels]=\"barChartLabels\"\n              [options]=\"barChartOptions\"\n              [plugins]=\"barChartPlugins\"\n              [legend]=\"barChartLegend\"\n              [chartType]=\"barChartType\">\n            </canvas>\n          </div>\n        </div> \n     </div> -->\n    </div>\n  \n     <!-- Grid Item  RIGHT CAMERA-->\n    <div class=\"col-xl-2 col-sm-3\" >\n       <!-- CAMERA 1 -->\n       <div class=\"row\" style=\"margin-bottom: 10px ;\">\n        <div class=\"col-xl-12 col-sm-12\">\n          <img src=\"http://trustprime.westus.cloudapp.azure.com:5000/video_feed\" width=\"100%\" height=\"125px\">\n        </div>\n      </div>\n  \n      <!-- CAMERA 2 -->\n      <div class=\"row\" style=\"margin-bottom: 10px ;\">\n        <div class=\"col-xl-12 col-sm-12\">\n          <img src=\"http://trustprime.westus.cloudapp.azure.com:5000/video_feed\" width=\"100%\" height=\"125px\">\n        </div>\n      </div>\n  \n      <!-- CAMERA 3 -->\n      <div class=\"row\" style=\"margin-bottom: 10px ;\">\n        <div class=\"col-xl-12 col-sm-12\">\n          <img src=\"http://trustprime.westus.cloudapp.azure.com:5000/video_feed\" width=\"100%\" height=\"125px\">\n        </div>\n      </div>\n  \n      <!-- CAMERA 4 -->\n      <div class=\"row\" style=\"margin-bottom: 10px ;\">\n        <div class=\"col-xl-12 col-sm-12\">\n          <img src=\"http://trustprime.westus.cloudapp.azure.com:5000/video_feed\" width=\"100%\" height=\"125px\">\n        </div>\n      </div>\n  \n      <!-- CAMERA 5 -->\n      <div class=\"row\" style=\"margin-bottom: 10px ;\">\n        <div class=\"col-xl-12 col-sm-12\">\n          <img src=\"http://trustprime.westus.cloudapp.azure.com:5000/video_feed\" width=\"100%\" height=\"125px\">\n        </div>\n      </div>\n    </div>\n   \n  </div>\n  \n  \n  \n<div class=\"row\" style=\"margin-bottom: 10px;\">\n  <div class=\"col-sm-3 col-xl-3\">\n    <div style=\"display: block; width:100% \">\n      <canvas baseChart width=\"100%\" height=\"90%\"\n        [data]=\"cam1PieChart.pieChartData\" \n        [labels]=\"cam1PieChart.pieChartLabels\" \n        [chartType]=\"cam1PieChart.pieChartType\"\n        [options]=\"cam1PieChart.pieChartOptions\"\n        [plugins]=\"cam1PieChart.pieChartPlugins\"\n        [colors]=\"cam1PieChart.pieChartColors\"\n        [legend]=\"cam1PieChart.pieChartLegend\">\n      </canvas>\n      </div>\n  </div>                                    \n  <div class=\"col-sm-3 col-xl-3\">\n    <div style=\"display: block; width:100% \">\n    <canvas baseChart width=\"100%\" height=\"90%\"\n      [datasets]=\"cam1BarChart.barChartData\"\n      [labels]=\"cam1BarChart.barChartLabels\"\n      [options]=\"cam1BarChart.barChartOptions\"\n      [plugins]=\"cam1BarChart.barChartPlugins\"\n      [legend]=\"cam1BarChart.barChartLegend\"\n      [chartType]=\"cam1BarChart.barChartType\">\n    </canvas>\n  </div>\n  </div>\n  <div class=\"col-sm-3 col-xl-3\">\n  <div style=\"display: block; width:100% ;height:100%\">\n    <canvas baseChart width=\"100%\" height=\"100%\"\n      [data]=\"cam1PieChart.pieChartData\" \n      [labels]=\"cam1PieChart.pieChartLabels\" \n      [chartType]=\"cam1PieChart.pieChartType\"\n      [options]=\"cam1PieChart.pieChartOptions\"\n      [plugins]=\"cam1PieChart.pieChartPlugins\"\n      [colors]=\"cam1PieChart.pieChartColors\"\n      [legend]=\"cam1PieChart.pieChartLegend\">\n    </canvas>\n    </div>\n  </div>\n  <div class=\"col-sm-3 col-xl-3\">\n  <div style=\"display: block; width:100% ;height:100%\">\n    <canvas baseChart width=\"100%\" height=\"100%\"\n      [datasets]=\"cam1BarChart.barChartData\"\n      [labels]=\"cam1BarChart.barChartLabels\"\n      [options]=\"cam1BarChart.barChartOptions\"\n      [plugins]=\"cam1BarChart.barChartPlugins\"\n      [legend]=\"cam1BarChart.barChartLegend\"\n      [chartType]=\"cam1BarChart.barChartType\">\n    </canvas>\n  </div>\n  </div>\n  </div>";
     /***/
   },
 
@@ -2119,7 +2119,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\r\n<!-- Grid -->\r\n<div class=\"row\" style=\"margin-bottom: 30px ;\">\r\n  <!-- Grid Item -->\r\n  <div class=\"col-xl-12 col-sm-12\" >\r\n    <img src=\"http://tp4.southeastasia.cloudapp.azure.com:5000/video_feed_cam2\" width=\"100%\" height=\"400px\">\r\n\r\n  </div>\r\n  <!-- /grid item -->\r\n\r\n</div>\r\n<!-- /grid -->\r\n<div class=\"row\" >\r\n\r\n    <!-- Grid Item -->\r\n    <div class=\"col-sm-6 col-xl-6\">\r\n      <div class=\"chart-container\" style=\"position: relative; height:50vh; width:45vw\">\r\n       \r\n      <canvas baseChart \r\n      [data]=\"camPieChart.pieChartData\" \r\n      [labels]=\"camPieChart.pieChartLabels\" \r\n      [chartType]=\"camPieChart.pieChartType\"\r\n      [options]=\"camPieChart.pieChartOptions\"\r\n      [plugins]=\"camPieChart.pieChartPlugins\"\r\n      [colors]=\"camPieChart.pieChartColors\"\r\n      [legend]=\"camPieChart.pieChartLegend\">\r\n    </canvas>\r\n  </div>\r\n    </div>\r\n    <div class=\"col-sm-6 col-xl-6\">\r\n      <div class=\"chart-container\" style=\"position: relative; height:50vh; width:45vw\">\r\n       \r\n      <canvas baseChart\r\n  [datasets]=\"camBarChart.barChartData\"\r\n  [labels]=\"camBarChart.barChartLabels\"\r\n  [options]=\"camBarChart.barChartOptions\"\r\n  [plugins]=\"camBarChart.barChartPlugins\"\r\n  [legend]=\"camBarChart.barChartLegend\"\r\n  [chartType]=\"camBarChart.barChartType\">\r\n</canvas>\r\n    </div>\r\n  </div>\r\n    <!-- /grid item -->\r\n  \r\n    <!-- Grid Item -->\r\n    <!-- <div class=\"col-md-6\">\r\n  \r\n      <app-section-campaigns-results gxCard fullHeight [campaigns]=\"widgets.campaigns\"></app-section-campaigns-results>\r\n  \r\n    </div> -->\r\n    <!-- /grid item -->\r\n  \r\n    <!-- Grid Item -->\r\n    <!-- <div class=\"col-md-6\">\r\n  \r\n      <app-section-social-media-advertising gxCard fullHeight [socialMedia]=\"widgets.socialMedia\">\r\n      </app-section-social-media-advertising>\r\n  \r\n    </div> -->\r\n    <!-- /grid item -->\r\n  \r\n</div>\r\n";
+    __webpack_exports__["default"] = "\r\n<!-- Grid -->\r\n<div class=\"row\" style=\"margin-bottom: 30px ;\">\r\n  <!-- Grid Item -->\r\n  <div class=\"col-xl-12 col-sm-12\" >\r\n    <img src=\"http://trustprime.westus.cloudapp.azure.com:5000/video_feed_cam2\" width=\"100%\" height=\"400px\">\r\n\r\n  </div>\r\n  <!-- /grid item -->\r\n\r\n</div>\r\n<!-- /grid -->\r\n<div class=\"row\" >\r\n\r\n    <!-- Grid Item -->\r\n    <div class=\"col-sm-6 col-xl-6\">\r\n      <div class=\"chart-container\" style=\"position: relative; height:50vh; width:45vw\">\r\n       \r\n      <canvas baseChart \r\n      [data]=\"camPieChart.pieChartData\" \r\n      [labels]=\"camPieChart.pieChartLabels\" \r\n      [chartType]=\"camPieChart.pieChartType\"\r\n      [options]=\"camPieChart.pieChartOptions\"\r\n      [plugins]=\"camPieChart.pieChartPlugins\"\r\n      [colors]=\"camPieChart.pieChartColors\"\r\n      [legend]=\"camPieChart.pieChartLegend\">\r\n    </canvas>\r\n  </div>\r\n    </div>\r\n    <div class=\"col-sm-6 col-xl-6\">\r\n      <div class=\"chart-container\" style=\"position: relative; height:50vh; width:45vw\">\r\n       \r\n      <canvas baseChart\r\n  [datasets]=\"camBarChart.barChartData\"\r\n  [labels]=\"camBarChart.barChartLabels\"\r\n  [options]=\"camBarChart.barChartOptions\"\r\n  [plugins]=\"camBarChart.barChartPlugins\"\r\n  [legend]=\"camBarChart.barChartLegend\"\r\n  [chartType]=\"camBarChart.barChartType\">\r\n</canvas>\r\n    </div>\r\n  </div>\r\n    <!-- /grid item -->\r\n  \r\n    <!-- Grid Item -->\r\n    <!-- <div class=\"col-md-6\">\r\n  \r\n      <app-section-campaigns-results gxCard fullHeight [campaigns]=\"widgets.campaigns\"></app-section-campaigns-results>\r\n  \r\n    </div> -->\r\n    <!-- /grid item -->\r\n  \r\n    <!-- Grid Item -->\r\n    <!-- <div class=\"col-md-6\">\r\n  \r\n      <app-section-social-media-advertising gxCard fullHeight [socialMedia]=\"widgets.socialMedia\">\r\n      </app-section-social-media-advertising>\r\n  \r\n    </div> -->\r\n    <!-- /grid item -->\r\n  \r\n</div>\r\n";
     /***/
   },
 
@@ -2159,7 +2159,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\r\n<!-- Grid -->\r\n<div class=\"row\" style=\"margin-bottom: 30px ;\">\r\n    <!-- Grid Item -->\r\n    <div class=\"col-xl-12 col-sm-12\" >\r\n      <img src=\"http://tp4.southeastasia.cloudapp.azure.com:5000/video_feed_cam2\" width=\"100%\" height=\"400px\">\r\n  \r\n    </div>\r\n    <!-- /grid item -->\r\n\r\n  </div>\r\n  <!-- /grid -->\r\n  <div class=\"row\" >\r\n\r\n      <!-- Grid Item -->\r\n      <div class=\"col-sm-6 col-xl-6\">\r\n        <div class=\"chart-container\" style=\"position: relative; height:50vh; width:45vw\">\r\n         \r\n        <canvas baseChart \r\n        [data]=\"camPieChart.pieChartData\" \r\n        [labels]=\"camPieChart.pieChartLabels\" \r\n        [chartType]=\"camPieChart.pieChartType\"\r\n        [options]=\"camPieChart.pieChartOptions\"\r\n        [plugins]=\"camPieChart.pieChartPlugins\"\r\n        [colors]=\"camPieChart.pieChartColors\"\r\n        [legend]=\"camPieChart.pieChartLegend\">\r\n      </canvas>\r\n    </div>\r\n      </div>\r\n      <div class=\"col-sm-6 col-xl-6\">\r\n        <div class=\"chart-container\" style=\"position: relative; height:50vh; width:45vw\">\r\n         \r\n        <canvas baseChart\r\n    [datasets]=\"camBarChart.barChartData\"\r\n    [labels]=\"camBarChart.barChartLabels\"\r\n    [options]=\"camBarChart.barChartOptions\"\r\n    [plugins]=\"camBarChart.barChartPlugins\"\r\n    [legend]=\"camBarChart.barChartLegend\"\r\n    [chartType]=\"camBarChart.barChartType\">\r\n  </canvas>\r\n      </div>\r\n    </div>\r\n      <!-- /grid item -->\r\n    \r\n      <!-- Grid Item -->\r\n      <!-- <div class=\"col-md-6\">\r\n    \r\n        <app-section-campaigns-results gxCard fullHeight [campaigns]=\"widgets.campaigns\"></app-section-campaigns-results>\r\n    \r\n      </div> -->\r\n      <!-- /grid item -->\r\n    \r\n      <!-- Grid Item -->\r\n      <!-- <div class=\"col-md-6\">\r\n    \r\n        <app-section-social-media-advertising gxCard fullHeight [socialMedia]=\"widgets.socialMedia\">\r\n        </app-section-social-media-advertising>\r\n    \r\n      </div> -->\r\n      <!-- /grid item -->\r\n    \r\n  </div>\r\n  ";
+    __webpack_exports__["default"] = "\r\n<!-- Grid -->\r\n<div class=\"row\" style=\"margin-bottom: 30px ;\">\r\n    <!-- Grid Item -->\r\n    <div class=\"col-xl-12 col-sm-12\" >\r\n      <img src=\"http://trustprime.westus.cloudapp.azure.com:5000/video_feed_cam2\" width=\"100%\" height=\"400px\">\r\n  \r\n    </div>\r\n    <!-- /grid item -->\r\n\r\n  </div>\r\n  <!-- /grid -->\r\n  <div class=\"row\" >\r\n\r\n      <!-- Grid Item -->\r\n      <div class=\"col-sm-6 col-xl-6\">\r\n        <div class=\"chart-container\" style=\"position: relative; height:50vh; width:45vw\">\r\n         \r\n        <canvas baseChart \r\n        [data]=\"camPieChart.pieChartData\" \r\n        [labels]=\"camPieChart.pieChartLabels\" \r\n        [chartType]=\"camPieChart.pieChartType\"\r\n        [options]=\"camPieChart.pieChartOptions\"\r\n        [plugins]=\"camPieChart.pieChartPlugins\"\r\n        [colors]=\"camPieChart.pieChartColors\"\r\n        [legend]=\"camPieChart.pieChartLegend\">\r\n      </canvas>\r\n    </div>\r\n      </div>\r\n      <div class=\"col-sm-6 col-xl-6\">\r\n        <div class=\"chart-container\" style=\"position: relative; height:50vh; width:45vw\">\r\n         \r\n        <canvas baseChart\r\n    [datasets]=\"camBarChart.barChartData\"\r\n    [labels]=\"camBarChart.barChartLabels\"\r\n    [options]=\"camBarChart.barChartOptions\"\r\n    [plugins]=\"camBarChart.barChartPlugins\"\r\n    [legend]=\"camBarChart.barChartLegend\"\r\n    [chartType]=\"camBarChart.barChartType\">\r\n  </canvas>\r\n      </div>\r\n    </div>\r\n      <!-- /grid item -->\r\n    \r\n      <!-- Grid Item -->\r\n      <!-- <div class=\"col-md-6\">\r\n    \r\n        <app-section-campaigns-results gxCard fullHeight [campaigns]=\"widgets.campaigns\"></app-section-campaigns-results>\r\n    \r\n      </div> -->\r\n      <!-- /grid item -->\r\n    \r\n      <!-- Grid Item -->\r\n      <!-- <div class=\"col-md-6\">\r\n    \r\n        <app-section-social-media-advertising gxCard fullHeight [socialMedia]=\"widgets.socialMedia\">\r\n        </app-section-social-media-advertising>\r\n    \r\n      </div> -->\r\n      <!-- /grid item -->\r\n    \r\n  </div>\r\n  ";
     /***/
   },
 
@@ -2179,7 +2179,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n<!-- Grid -->\n<div class=\"row\" style=\"margin-bottom: 30px ;\">\n    <!-- Grid Item -->\n    <div class=\"col-xl-12 col-sm-12\" >\n      <img src=\"http://tp4.southeastasia.cloudapp.azure.com:5000/video_feed_cam2\" width=\"100%\" height=\"400px\">\n  \n    </div>\n    <!-- /grid item -->\n\n  </div>\n  <!-- /grid -->\n  <div class=\"row\" >\n\n      <!-- Grid Item -->\n      <div class=\"col-sm-6 col-xl-6\">\n        <div class=\"chart-container\" style=\"position: relative; height:50vh; width:45vw\">\n         \n        <canvas baseChart \n        [data]=\"camPieChart.pieChartData\" \n        [labels]=\"camPieChart.pieChartLabels\" \n        [chartType]=\"camPieChart.pieChartType\"\n        [options]=\"camPieChart.pieChartOptions\"\n        [plugins]=\"camPieChart.pieChartPlugins\"\n        [colors]=\"camPieChart.pieChartColors\"\n        [legend]=\"camPieChart.pieChartLegend\">\n      </canvas>\n    </div>\n      </div>\n      <div class=\"col-sm-6 col-xl-6\">\n        <div class=\"chart-container\" style=\"position: relative; height:50vh; width:45vw\">\n         \n        <canvas baseChart\n    [datasets]=\"camBarChart.barChartData\"\n    [labels]=\"camBarChart.barChartLabels\"\n    [options]=\"camBarChart.barChartOptions\"\n    [plugins]=\"camBarChart.barChartPlugins\"\n    [legend]=\"camBarChart.barChartLegend\"\n    [chartType]=\"camBarChart.barChartType\">\n  </canvas>\n      </div>\n    </div>\n      <!-- /grid item -->\n    \n      <!-- Grid Item -->\n      <!-- <div class=\"col-md-6\">\n    \n        <app-section-campaigns-results gxCard fullHeight [campaigns]=\"widgets.campaigns\"></app-section-campaigns-results>\n    \n      </div> -->\n      <!-- /grid item -->\n    \n      <!-- Grid Item -->\n      <!-- <div class=\"col-md-6\">\n    \n        <app-section-social-media-advertising gxCard fullHeight [socialMedia]=\"widgets.socialMedia\">\n        </app-section-social-media-advertising>\n    \n      </div> -->\n      <!-- /grid item -->\n    \n  </div>\n  \n";
+    __webpack_exports__["default"] = "\n<!-- Grid -->\n<div class=\"row\" style=\"margin-bottom: 30px ;\">\n    <!-- Grid Item -->\n    <div class=\"col-xl-12 col-sm-12\" >\n      <img src=\"http://trustprime.westus.cloudapp.azure.com:5000/video_feed_cam2\" width=\"100%\" height=\"400px\">\n  \n    </div>\n    <!-- /grid item -->\n\n  </div>\n  <!-- /grid -->\n  <div class=\"row\" >\n\n      <!-- Grid Item -->\n      <div class=\"col-sm-6 col-xl-6\">\n        <div class=\"chart-container\" style=\"position: relative; height:50vh; width:45vw\">\n         \n        <canvas baseChart \n        [data]=\"camPieChart.pieChartData\" \n        [labels]=\"camPieChart.pieChartLabels\" \n        [chartType]=\"camPieChart.pieChartType\"\n        [options]=\"camPieChart.pieChartOptions\"\n        [plugins]=\"camPieChart.pieChartPlugins\"\n        [colors]=\"camPieChart.pieChartColors\"\n        [legend]=\"camPieChart.pieChartLegend\">\n      </canvas>\n    </div>\n      </div>\n      <div class=\"col-sm-6 col-xl-6\">\n        <div class=\"chart-container\" style=\"position: relative; height:50vh; width:45vw\">\n         \n        <canvas baseChart\n    [datasets]=\"camBarChart.barChartData\"\n    [labels]=\"camBarChart.barChartLabels\"\n    [options]=\"camBarChart.barChartOptions\"\n    [plugins]=\"camBarChart.barChartPlugins\"\n    [legend]=\"camBarChart.barChartLegend\"\n    [chartType]=\"camBarChart.barChartType\">\n  </canvas>\n      </div>\n    </div>\n      <!-- /grid item -->\n    \n      <!-- Grid Item -->\n      <!-- <div class=\"col-md-6\">\n    \n        <app-section-campaigns-results gxCard fullHeight [campaigns]=\"widgets.campaigns\"></app-section-campaigns-results>\n    \n      </div> -->\n      <!-- /grid item -->\n    \n      <!-- Grid Item -->\n      <!-- <div class=\"col-md-6\">\n    \n        <app-section-social-media-advertising gxCard fullHeight [socialMedia]=\"widgets.socialMedia\">\n        </app-section-social-media-advertising>\n    \n      </div> -->\n      <!-- /grid item -->\n    \n  </div>\n  \n";
     /***/
   },
 
@@ -2440,6 +2440,46 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
     __webpack_exports__["default"] = "<!-- Card Header -->\r\n<card-header class=\"mb-4\" card-title=\"Order History\">\r\n\r\n  <!-- Card Tools -->\r\n  <card-tool><a href=\"javascript:void(0)\" class=\"dt-card__more\">Detailed History</a></card-tool>\r\n  <!-- /card tools -->\r\n\r\n</card-header>\r\n<!-- /card header -->\r\n\r\n<!-- Card Body -->\r\n<card-body class=\"pb-5\">\r\n\r\n  <!-- Tables -->\r\n  <div class=\"table-responsive ps-custom-scrollbar\">\r\n    <table class=\"table table-ordered table-bordered-0 mb-0\">\r\n      <thead>\r\n      <tr>\r\n        <th class=\"text-uppercase\">Currency</th>\r\n        <th class=\"text-uppercase text-right\" scope=\"col\">Rate (USD)\r\n        </th>\r\n        <th class=\"text-uppercase text-center\" scope=\"col\">Date</th>\r\n        <th class=\"text-uppercase text-right\" scope=\"col\">Fee</th>\r\n      </tr>\r\n      </thead>\r\n      <tbody>\r\n      <tr>\r\n        <td>0.24 BTC</td>\r\n        <td class=\"text-right text-nowrap\">1 BTC = $740</td>\r\n        <td class=\"text-center\">08.10.17</td>\r\n        <td class=\"text-right text-danger\">-$2.33</td>\r\n      </tr>\r\n      <tr>\r\n        <td>0.32 RPL</td>\r\n        <td class=\"text-right text-nowrap\">1 RPL = $80.2</td>\r\n        <td class=\"text-center\">08.03.17</td>\r\n        <td class=\"text-right text-danger\">-$1.23</td>\r\n      </tr>\r\n      <tr>\r\n        <td>0.24 BTC</td>\r\n        <td class=\"text-right text-nowrap\">1 BTC = $740</td>\r\n        <td class=\"text-center\">07.29.17</td>\r\n        <td class=\"text-right text-danger\">-$3.22</td>\r\n      </tr>\r\n      <tr>\r\n        <td>0.22 BTC</td>\r\n        <td class=\"text-right text-nowrap\">1 BTC = $740</td>\r\n        <td class=\"text-center\">07.28.17</td>\r\n        <td class=\"text-right text-danger\">-$3.22</td>\r\n      </tr>\r\n      <tr>\r\n        <td>0.74 LTE</td>\r\n        <td class=\"text-right text-nowrap\">1 LTE = $99.9</td>\r\n        <td class=\"text-center\">05.22.17</td>\r\n        <td class=\"text-right text-danger\">-$2.21</td>\r\n      </tr>\r\n      </tbody>\r\n    </table>\r\n  </div>\r\n  <!-- /tables -->\r\n\r\n</card-body>\r\n<!-- /card body -->\r\n";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/content/main/dashboards/face-detection/face-detection.component.html":
+  /*!****************************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/content/main/dashboards/face-detection/face-detection.component.html ***!
+    \****************************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppContentMainDashboardsFaceDetectionFaceDetectionComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<!-- Grid -->\n<div class=\"row\" style=\"margin-bottom: 30px ;\">\n    <!-- Grid Item -->\n    <div class=\"col-xl-12 col-sm-12\" >\n      <img src=\"http://trustprime.westus.cloudapp.azure.com:5000/face_detections\" width=\"100%\" height=\"600px\">\n  \n    </div>\n    <!-- /grid item -->\n  \n  </div>";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/content/main/dashboards/illegal-parking/illegal-parking.component.html":
+  /*!******************************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/content/main/dashboards/illegal-parking/illegal-parking.component.html ***!
+    \******************************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppContentMainDashboardsIllegalParkingIllegalParkingComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<!-- Grid -->\n<div class=\"row\" style=\"margin-bottom: 30px ;\">\n    <!-- Grid Item -->\n    <div class=\"col-xl-12 col-sm-12\" >\n      <img src=\"http://trustprime.westus.cloudapp.azure.com:5000/parking\" width=\"100%\" height=\"600px\">\n  \n    </div>\n    <!-- /grid item -->\n  \n  </div>";
     /***/
   },
 
@@ -5960,6 +6000,18 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _cctv_cam_all_dashboard_cctv_cam_all_dashboard_component__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(
     /*! ./cctv-cam-all-dashboard/cctv-cam-all-dashboard.component */
     "./src/app/content/main/dashboards/cctv-cam-all-dashboard/cctv-cam-all-dashboard.component.ts");
+    /* harmony import */
+
+
+    var _illegal_parking_illegal_parking_component__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(
+    /*! ./illegal-parking/illegal-parking.component */
+    "./src/app/content/main/dashboards/illegal-parking/illegal-parking.component.ts");
+    /* harmony import */
+
+
+    var _face_detection_face_detection_component__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(
+    /*! ./face-detection/face-detection.component */
+    "./src/app/content/main/dashboards/face-detection/face-detection.component.ts");
 
     var DEFAULT_PERFECT_SCROLLBAR_CONFIG = {
       suppressScrollX: true
@@ -6060,6 +6112,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       resolve: {
         data: _cctv_cam2_dashboard_cctv_cam2_dashboard_service__WEBPACK_IMPORTED_MODULE_13__["CctvCam2DashboardService"]
       }
+    }, {
+      path: 'illegal-parking',
+      component: _illegal_parking_illegal_parking_component__WEBPACK_IMPORTED_MODULE_46__["IllegalParkingComponent"]
+    }, {
+      path: 'face-detection',
+      component: _face_detection_face_detection_component__WEBPACK_IMPORTED_MODULE_47__["FaceDetectionComponent"]
     }];
 
     var DashboardsModule = function DashboardsModule() {
@@ -6078,12 +6136,166 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         innerStrokeColor: '#C7E596',
         animationDuration: 300
       })],
-      declarations: [_crm_dashboard_crm_dashboard_component__WEBPACK_IMPORTED_MODULE_18__["CrmDashboardComponent"], _listing_dashboard_listing_dashboard_component__WEBPACK_IMPORTED_MODULE_19__["ListingDashboardComponent"], _crypto_dashboard_crypto_dashboard_component__WEBPACK_IMPORTED_MODULE_20__["CryptoDashboardComponent"], _real_state_dashboard_real_state_dashboard_component__WEBPACK_IMPORTED_MODULE_29__["RealStateDashboardComponent"], _crypto_dashboard_section_balance_portfolio_section_balance_portfolio_component__WEBPACK_IMPORTED_MODULE_21__["SectionBalancePortfolioComponent"], _crypto_dashboard_section_balance_history_section_balance_history_component__WEBPACK_IMPORTED_MODULE_22__["SectionBalanceHistoryComponent"], _crypto_dashboard_table_payment_history_table_payment_history_component__WEBPACK_IMPORTED_MODULE_23__["TablePaymentHistoryComponent"], _listing_dashboard_widget_current_plan_widget_current_plan_component__WEBPACK_IMPORTED_MODULE_24__["WidgetCurrentPlanComponent"], _listing_dashboard_widget_closed_deals_widget_closed_deals_component__WEBPACK_IMPORTED_MODULE_25__["WidgetClosedDealsComponent"], _listing_dashboard_widget_properties_list_widget_properties_list_component__WEBPACK_IMPORTED_MODULE_26__["WidgetPropertiesListComponent"], _crm_dashboard_widget_overview_widget_overview_component__WEBPACK_IMPORTED_MODULE_27__["WidgetOverviewComponent"], _crm_dashboard_widget_recent_tickets_widget_recent_tickets_component__WEBPACK_IMPORTED_MODULE_28__["WidgetRecentTicketsComponent"], _real_state_dashboard_statics_statics_component__WEBPACK_IMPORTED_MODULE_30__["StaticsComponent"], _real_state_dashboard_revenue_revenue_component__WEBPACK_IMPORTED_MODULE_31__["RevenueComponent"], _real_state_dashboard_most_search_places_most_search_places_component__WEBPACK_IMPORTED_MODULE_32__["MostSearchPlacesComponent"], _cctv_cam1_dashboard_cctv_cam1_dashboard_component__WEBPACK_IMPORTED_MODULE_34__["CctvCam1DashboardComponent"], _cctv_cam2_dashboard_cctv_cam2_dashboard_component__WEBPACK_IMPORTED_MODULE_35__["CctvCam2DashboardComponent"], _cctv_cam3_dashboard_cctv_cam3_dashboard_component__WEBPACK_IMPORTED_MODULE_37__["CctvCam3DashboardComponent"], _cctv_cam4_dashboard_cctv_cam4_dashboard_component__WEBPACK_IMPORTED_MODULE_38__["CctvCam4DashboardComponent"], _cctv_cam5_dashboard_cctv_cam5_dashboard_component__WEBPACK_IMPORTED_MODULE_39__["CctvCam5DashboardComponent"], _cctv_cam6_dashboard_cctv_cam6_dashboard_component__WEBPACK_IMPORTED_MODULE_40__["CctvCam6DashboardComponent"], _cctv_cam7_dashboard_cctv_cam7_dashboard_component__WEBPACK_IMPORTED_MODULE_41__["CctvCam7DashboardComponent"], _cctv_cam8_dashboard_cctv_cam8_dashboard_component__WEBPACK_IMPORTED_MODULE_42__["CctvCam8DashboardComponent"], _cctv_cam9_dashboard_cctv_cam9_dashboard_component__WEBPACK_IMPORTED_MODULE_43__["CctvCam9DashboardComponent"], _cctv_cam10_dashboard_cctv_cam10_dashboard_component__WEBPACK_IMPORTED_MODULE_44__["CctvCam10DashboardComponent"], _cctv_cam_all_dashboard_cctv_cam_all_dashboard_component__WEBPACK_IMPORTED_MODULE_45__["CctvCamAllDashboardComponent"]],
+      declarations: [_crm_dashboard_crm_dashboard_component__WEBPACK_IMPORTED_MODULE_18__["CrmDashboardComponent"], _listing_dashboard_listing_dashboard_component__WEBPACK_IMPORTED_MODULE_19__["ListingDashboardComponent"], _crypto_dashboard_crypto_dashboard_component__WEBPACK_IMPORTED_MODULE_20__["CryptoDashboardComponent"], _real_state_dashboard_real_state_dashboard_component__WEBPACK_IMPORTED_MODULE_29__["RealStateDashboardComponent"], _crypto_dashboard_section_balance_portfolio_section_balance_portfolio_component__WEBPACK_IMPORTED_MODULE_21__["SectionBalancePortfolioComponent"], _crypto_dashboard_section_balance_history_section_balance_history_component__WEBPACK_IMPORTED_MODULE_22__["SectionBalanceHistoryComponent"], _crypto_dashboard_table_payment_history_table_payment_history_component__WEBPACK_IMPORTED_MODULE_23__["TablePaymentHistoryComponent"], _listing_dashboard_widget_current_plan_widget_current_plan_component__WEBPACK_IMPORTED_MODULE_24__["WidgetCurrentPlanComponent"], _listing_dashboard_widget_closed_deals_widget_closed_deals_component__WEBPACK_IMPORTED_MODULE_25__["WidgetClosedDealsComponent"], _listing_dashboard_widget_properties_list_widget_properties_list_component__WEBPACK_IMPORTED_MODULE_26__["WidgetPropertiesListComponent"], _crm_dashboard_widget_overview_widget_overview_component__WEBPACK_IMPORTED_MODULE_27__["WidgetOverviewComponent"], _crm_dashboard_widget_recent_tickets_widget_recent_tickets_component__WEBPACK_IMPORTED_MODULE_28__["WidgetRecentTicketsComponent"], _real_state_dashboard_statics_statics_component__WEBPACK_IMPORTED_MODULE_30__["StaticsComponent"], _real_state_dashboard_revenue_revenue_component__WEBPACK_IMPORTED_MODULE_31__["RevenueComponent"], _real_state_dashboard_most_search_places_most_search_places_component__WEBPACK_IMPORTED_MODULE_32__["MostSearchPlacesComponent"], _cctv_cam1_dashboard_cctv_cam1_dashboard_component__WEBPACK_IMPORTED_MODULE_34__["CctvCam1DashboardComponent"], _cctv_cam2_dashboard_cctv_cam2_dashboard_component__WEBPACK_IMPORTED_MODULE_35__["CctvCam2DashboardComponent"], _cctv_cam3_dashboard_cctv_cam3_dashboard_component__WEBPACK_IMPORTED_MODULE_37__["CctvCam3DashboardComponent"], _cctv_cam4_dashboard_cctv_cam4_dashboard_component__WEBPACK_IMPORTED_MODULE_38__["CctvCam4DashboardComponent"], _cctv_cam5_dashboard_cctv_cam5_dashboard_component__WEBPACK_IMPORTED_MODULE_39__["CctvCam5DashboardComponent"], _cctv_cam6_dashboard_cctv_cam6_dashboard_component__WEBPACK_IMPORTED_MODULE_40__["CctvCam6DashboardComponent"], _cctv_cam7_dashboard_cctv_cam7_dashboard_component__WEBPACK_IMPORTED_MODULE_41__["CctvCam7DashboardComponent"], _cctv_cam8_dashboard_cctv_cam8_dashboard_component__WEBPACK_IMPORTED_MODULE_42__["CctvCam8DashboardComponent"], _cctv_cam9_dashboard_cctv_cam9_dashboard_component__WEBPACK_IMPORTED_MODULE_43__["CctvCam9DashboardComponent"], _cctv_cam10_dashboard_cctv_cam10_dashboard_component__WEBPACK_IMPORTED_MODULE_44__["CctvCam10DashboardComponent"], _cctv_cam_all_dashboard_cctv_cam_all_dashboard_component__WEBPACK_IMPORTED_MODULE_45__["CctvCamAllDashboardComponent"], _illegal_parking_illegal_parking_component__WEBPACK_IMPORTED_MODULE_46__["IllegalParkingComponent"], _face_detection_face_detection_component__WEBPACK_IMPORTED_MODULE_47__["FaceDetectionComponent"]],
       providers: [{
         provide: ngx_perfect_scrollbar__WEBPACK_IMPORTED_MODULE_9__["PERFECT_SCROLLBAR_CONFIG"],
         useValue: DEFAULT_PERFECT_SCROLLBAR_CONFIG
       }]
     })], DashboardsModule);
+    /***/
+  },
+
+  /***/
+  "./src/app/content/main/dashboards/face-detection/face-detection.component.scss":
+  /*!**************************************************************************************!*\
+    !*** ./src/app/content/main/dashboards/face-detection/face-detection.component.scss ***!
+    \**************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppContentMainDashboardsFaceDetectionFaceDetectionComponentScss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbnRlbnQvbWFpbi9kYXNoYm9hcmRzL2ZhY2UtZGV0ZWN0aW9uL2ZhY2UtZGV0ZWN0aW9uLmNvbXBvbmVudC5zY3NzIn0= */";
+    /***/
+  },
+
+  /***/
+  "./src/app/content/main/dashboards/face-detection/face-detection.component.ts":
+  /*!************************************************************************************!*\
+    !*** ./src/app/content/main/dashboards/face-detection/face-detection.component.ts ***!
+    \************************************************************************************/
+
+  /*! exports provided: FaceDetectionComponent */
+
+  /***/
+  function srcAppContentMainDashboardsFaceDetectionFaceDetectionComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "FaceDetectionComponent", function () {
+      return FaceDetectionComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var FaceDetectionComponent = /*#__PURE__*/function () {
+      function FaceDetectionComponent() {
+        _classCallCheck(this, FaceDetectionComponent);
+      }
+
+      _createClass(FaceDetectionComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return FaceDetectionComponent;
+    }();
+
+    FaceDetectionComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-face-detection',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./face-detection.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/content/main/dashboards/face-detection/face-detection.component.html"))["default"],
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./face-detection.component.scss */
+      "./src/app/content/main/dashboards/face-detection/face-detection.component.scss"))["default"]]
+    })], FaceDetectionComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/content/main/dashboards/illegal-parking/illegal-parking.component.scss":
+  /*!****************************************************************************************!*\
+    !*** ./src/app/content/main/dashboards/illegal-parking/illegal-parking.component.scss ***!
+    \****************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppContentMainDashboardsIllegalParkingIllegalParkingComponentScss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbnRlbnQvbWFpbi9kYXNoYm9hcmRzL2lsbGVnYWwtcGFya2luZy9pbGxlZ2FsLXBhcmtpbmcuY29tcG9uZW50LnNjc3MifQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/content/main/dashboards/illegal-parking/illegal-parking.component.ts":
+  /*!**************************************************************************************!*\
+    !*** ./src/app/content/main/dashboards/illegal-parking/illegal-parking.component.ts ***!
+    \**************************************************************************************/
+
+  /*! exports provided: IllegalParkingComponent */
+
+  /***/
+  function srcAppContentMainDashboardsIllegalParkingIllegalParkingComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "IllegalParkingComponent", function () {
+      return IllegalParkingComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var IllegalParkingComponent = /*#__PURE__*/function () {
+      function IllegalParkingComponent() {
+        _classCallCheck(this, IllegalParkingComponent);
+      }
+
+      _createClass(IllegalParkingComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return IllegalParkingComponent;
+    }();
+
+    IllegalParkingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-illegal-parking',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./illegal-parking.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/content/main/dashboards/illegal-parking/illegal-parking.component.html"))["default"],
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./illegal-parking.component.scss */
+      "./src/app/content/main/dashboards/illegal-parking/illegal-parking.component.scss"))["default"]]
+    })], IllegalParkingComponent);
     /***/
   },
 
